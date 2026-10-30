@@ -24,7 +24,7 @@ nav.tabs::-webkit-scrollbar{display:none}
 .hero-p{order:-1;margin:0 -18px;position:relative;overflow:hidden}
 .hero-p img{width:100%;aspect-ratio:1/.9;object-fit:cover;object-position:60% 28%;filter:grayscale(.1) contrast(1.04)}
 .hero-p::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 42%,var(--bg) 100%)}
-.hero-t{position:relative;margin-top:-10px}
+.hero-t{position:relative;z-index:2;margin-top:0;padding-top:6px}.hero-p{z-index:1}
 h1{font:800 clamp(1.9rem,9.4vw,3.9rem)/1 var(--display);text-transform:uppercase;letter-spacing:-.02em;margin-bottom:18px}
 h1 span{display:block}h1 em{font:italic 500 1.04em var(--serif);color:var(--ac);text-transform:none;letter-spacing:0}
 .lead{font:600 19px/1.4 var(--body);margin-bottom:8px}
